@@ -17,8 +17,8 @@ It does not create one upon first push like Docker Hub.
 ## Publishing
 
 Publishing images is done through the [ci github action]. The action is
-manually triggered in order to be able to set the `VERSION` and `LS` variables.
-The github action also creates a release.
+automatically triggered grabs the build variables from the `VERSION`,
+`CHECKSUM`, and `LS` variables. The github action also creates a release.
 
 The name of the image is taken from the repository name after `docker-`. So,
 repo `docker-etherpad` would have an image name of `etherpad`.
