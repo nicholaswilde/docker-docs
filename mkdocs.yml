@@ -14,6 +14,12 @@ edit_uri: ""
 # Page tree
 nav:
   - Home: index.md
+  - Development: development.md
+  - Linting: linting.md
+  - Publishing: publishing.md
+  - Task: task.md
+  - Troubleshooting: troubleshooting.md
+  - FAQ: faq.md
 
 extra:
   social:
