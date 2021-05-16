@@ -89,7 +89,7 @@ markdown_extensions:
   - pymdownx.magiclink:
       repo_url_shorthand: true
       user: nicholaswilde
-      repo: notes
+      repo: docker-docs
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
