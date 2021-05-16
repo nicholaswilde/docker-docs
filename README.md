@@ -18,4 +18,4 @@ Documentation can be found [here](https://nicholaswilde.io/docker-docs).
 
 ## :pencil: Author
 
-This project was started in 2020 by [Nicholas Wilde](https://github.com/nicholaswilde/).
+This project was started in 2021 by [Nicholas Wilde](https://github.com/nicholaswilde/).
