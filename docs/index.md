@@ -14,10 +14,10 @@ My images support the following three architectures:
 - `arm64`
 - `amd64`
 
-## License
+## :balance_scale: License
 
 [Apache 2.0 License](https://github.com/nicholaswilde/docker-docs/blob/main/LICENSE)
 
-## Author
+## :pencil: Author
 
 This project was started in 2021 by [Nicholas Wilde](https://github.com/nicholaswilde/).
