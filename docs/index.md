@@ -20,7 +20,7 @@ Documentation for my Docker 🐋 images.
   </a>
 </p>
 
-## Architectures
+## :office: Architectures
 
 My images support the following three architectures:
 
