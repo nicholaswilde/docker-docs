@@ -6,7 +6,7 @@
 
 Documentation for my Docker 🐋 images.
 
-## :wrapped_gift: Registries
+## :gift: Registries
 
 <p align="left">
   <a href="https://artifacthub.io/packages/search?repo=nicholaswilde">
