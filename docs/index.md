@@ -8,7 +8,7 @@ Documentation for my Docker 🐋 images.
 
 ## Registries
 
-<p align="center">
+<p align="left">
   <a href="https://artifacthub.io/packages/search?repo=nicholaswilde">
     <img src="https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/nicholaswilde&style=for-the-badge">
   </a>
@@ -28,7 +28,7 @@ My images support the following three architectures:
 - `arm64`
 - `amd64`
 
-## :balance_scale: License
+## :scales: License
 
 [Apache 2.0 License](https://github.com/nicholaswilde/docker-docs/blob/main/LICENSE)
 
