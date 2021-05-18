@@ -10,7 +10,7 @@ my multi-architecture images.
 Check that you can build the following:
 
 ```bash
-$ docker buildx ls
+docker buildx ls
 NAME/NODE    DRIVER/ENDPOINT             STATUS  PLATFORMS
 mybuilder *  docker-container
   mybuilder0 unix:///var/run/docker.sock running linux/amd64, linux/arm64, linux/arm/v7
@@ -23,7 +23,7 @@ Also checkout
 [qemu-user-static](https://github.com/multiarch/qemu-user-static#getting-started).
 
 ```bash
-$ make build
+make build
 ```
 
 ## Task

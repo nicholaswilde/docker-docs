@@ -18,10 +18,10 @@ To fix this, run the following command to get the container name and then
 manually restart the container.
 
 ```bash
-$ docker ps
+docker ps
 CONTAINER ID        IMAGE                           ...  NAMES
 75316abfd2e3        moby/buildkit:buildx-stable-1   ...  buildx_buildkit_mybuilder0
-$ docker restart buildx_buildkit_mybuilder0
+docker restart buildx_buildkit_mybuilder0
 ```
 
 ### Alpine Packages
@@ -52,14 +52,14 @@ In the above example, the `mysql-client` package version needs to be set to
 you're trying to install.
 
 ```bash
-$ docker run --rm -it alpine:3.13.1 /bin/ash
-$ apk policy <package name>
+docker run --rm -it alpine:3.13.1 /bin/ash
+apk policy <package name>
 ```
 
 4. Alternatively, you can get the package version directly.
 
 ```bash
-$ docker run --rm -it alpine:3.13.1 /bin/ash -c "apk update && apk policy <package name>"
+docker run --rm -it alpine:3.13.1 /bin/ash -c "apk update && apk policy <package name>"
 ...
 <package name> policy:
   1.21.1-r1:

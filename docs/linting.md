@@ -4,20 +4,20 @@ My Docker repositories use [yamllint] and [hadolint] to lint the repositories.
 
 ```shell
 # Use the Makefile to lint the repository.
-$ make lint
+make lint
 ```
 
 ## Yamllint
 
 ```shell
 # Manually lint
-$ yamllint .
+yamllint .
 ```
 
 ## Hadolint
 ```shell
 # Manually lint
-$ hadolint Dockerfile
+hadolint Dockerfile
 ```
 
 ### Pin Package Versions ([DL3008])
@@ -27,7 +27,7 @@ variables `PACKAGES` and `BASE` respectively in `make.env/task.env`.
 2. Run `make packages/task packages` to list the package versions.
 
 ```shell
-$ task packages-alpine
+task packages-alpine
 ...
 ca-certificates policy:
   20191127-r5:
@@ -51,8 +51,8 @@ make sure you [install the pre-commit binary], and add a
 `.pre-commit-config.yaml` to your project. Then run:
 
 ```shell
-$ pre-commit install
-$ pre-commit install-hooks
+pre-commit install
+pre-commit install-hooks
 ```
 
 Currently, this only works on `amd64` systems.
