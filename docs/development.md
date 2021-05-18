@@ -105,7 +105,7 @@ The `CHECKSUM`, `LS`, and `VERSION` files are all used to pass variables to the
 `ci.yaml` Github Action.
 
 !!! Note
-    For the commands below, `printf` should be used rather than `echo` so that
+    For the commands below, [printf] should be used rather than [echo] so that
     a newline character is not added to the end of the files. This needs to be
     done so in order for the ci.yaml github action can read the values into
     variables correctly.
@@ -164,3 +164,5 @@ task version:export
 See [Troubleshooting](./troubleshooting.md)
 
 [LinuxServer.io's]: https://github.com/linuxserver/
+[printf]: https://www.gnu.org/software/coreutils/manual/html_node/printf-invocation.html
+[echo]: https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html#echo-invocation
