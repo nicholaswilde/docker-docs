@@ -30,7 +30,9 @@ docker run --rm --privileged multiarch/qemu-user-static:register --reset
 
 The docker repos use [task](./task.md) to automate the development processes.
 
-## Create Image TL;DR
+## TL;DR
+
+### Create Image
 
 ```shell
 # Create a new repo from the template repo.
@@ -57,7 +59,7 @@ task run
 task goss:run
 ```
 
-## Update Image TL;DR
+### Update Image
 
 ```shell
 # Print the latest app version and confirm that the correct version is pulled.
@@ -82,14 +84,83 @@ task run
 task goss:run
 ```
 
-## Create Image
+## Directory Layout
 
-WIP
+```
+docker-appname
+├── .github/workflows
+│           └── ci.yaml
+├── CHECKSUM
+├── docker-compose.yaml
+├── Dockerfile
+├── goss.yaml
+├── LS
+├── task.env
+└── VERSION
+```
 
-## Update Image
+## Files
 
-WIP
+The `CHECKSUM`, `LS`, and `VERSION` files are all used to pass variables to the
+`ci.yaml` Github Action.
+
+!!! Note
+    For the commands below, `printf` should be used rather than `echo` so that
+    a newline character is not added to the end of the files. This needs to be
+    done so in order for the ci.yaml github action can read the values into
+    variables correctly.
+
+### CHECKSUM
+
+Used to pass in the sha256 checksum of the downloaded file.
+
+```shell
+# Manual
+printf "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" > CHECKSUM
+# Task
+task chk:export
+```
+
+### Dockerfile
+
+The Dockerfile, of course!
+
+### goss.yaml
+
+The [Goss](./goss.md) config file used by the `ci.yaml` Github Action.
+
+### LS
+
+Used to pass in the image version.
+
+!!! Note
+    My Docker images are based off of [LinuxServer.io's]. LS, I _believe_ stands
+    for LinuxServer.
+
+```shell
+# Manual
+printf "2" > LS
+# Task
+task ls:increment
+```
+
+### task.env
+
+Used to pass other variables into Task.
+
+### VERSION
+
+Used to pass in the app version.
+
+```shell
+# Manual
+printf "0.1.0" > VERSION
+# Task
+task version:export
+```
 
 ## Troubleshooting
 
 See [Troubleshooting](./troubleshooting.md)
+
+[LinuxServer.io's]: https://github.com/linuxserver/

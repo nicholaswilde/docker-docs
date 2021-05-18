@@ -17,6 +17,7 @@ nav:
   - Development: development.md
   - Linting: linting.md
   - Publishing: publishing.md
+  - Goss: goss.md
   - Task: task.md
   - Troubleshooting: troubleshooting.md
   - FAQ: faq.md
@@ -72,3 +73,4 @@ markdown_extensions:
           class: mermaid-experimental
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight
+  - admonition
