@@ -23,7 +23,7 @@ Also checkout
 [qemu-user-static](https://github.com/multiarch/qemu-user-static#getting-started).
 
 ```bash
-make build
+docker run --rm --privileged multiarch/qemu-user-static:register --reset
 ```
 
 ## Task
