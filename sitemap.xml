@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+     <loc>https://nicholaswilde.io/docker-docs/</loc>
+     <lastmod>2021-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://nicholaswilde.io/docker-docs/development/</loc>
+     <lastmod>2021-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://nicholaswilde.io/docker-docs/linting/</loc>
+     <lastmod>2021-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://nicholaswilde.io/docker-docs/publishing/</loc>
+     <lastmod>2021-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://nicholaswilde.io/docker-docs/goss/</loc>
+     <lastmod>2021-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://nicholaswilde.io/docker-docs/task/</loc>
+     <lastmod>2021-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://nicholaswilde.io/docker-docs/troubleshooting/</loc>
+     <lastmod>2021-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://nicholaswilde.io/docker-docs/faq/</loc>
+     <lastmod>2021-05-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+</urlset>
